@@ -215,3 +215,46 @@ h1, h2, h3, h4 {
     border: 1px solid #ddd;
     padding: 0.8rem;
 }
+
+/* Footer */
+
+.footer {
+    background-color: var(--dark-bg);
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3 ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 0.8rem 2rem;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b69121;
+    border-color: #b69121;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(121, 175, 55, 0.2);
+}
+
+.btn-primary:active, .btn-primary:focus {
+    background-color: #997a1c !important;
+    border-color: #997a1c !important;
+    transform: translateY(0);
+    box-shadow: 0,2px 8px rgba(212, 175, 55, 0.2);
+}
