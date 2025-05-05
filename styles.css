@@ -3,7 +3,7 @@
     --primary-color: #d4af37;
     --secondary-color: #2c3e50;
     --text-color: #333;
-    --light-bg: #f8f9fa;
+    --light-bg: #eef2f7;
     --dark-bg: #1a1a1a;
 }
 
@@ -175,4 +175,21 @@ h1, h2, h3, h4 {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 1.4rem;
+}
+
+/* Special Section */
+.special-section {
+    padding: 6rem;
+    background-color: var(--light-bg);
+}
+
+.special-section h2 {
+    margin-bottom: 2rem;
+}
+
+.special-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
