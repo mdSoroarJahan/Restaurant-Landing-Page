@@ -91,3 +91,88 @@ h1, h2, h3, h4 {
     border-radius: 10px;
     overflow: hidden;
 }
+
+/* Menu Section */
+.menu-section {
+    padding: 6rem 0;
+    background-color: white;
+}
+
+.menu-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+.menu-section h2::after {
+    content : "";
+    display: block;
+    width: 180px;
+    height: 3px;
+    background: var(--primary-color);
+    margin: 15px auto;
+}
+
+.nav-tabs {
+    border: none;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    color: var(--secondary-color) !important;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    background: transparent;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary-color) !important;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-color) !important;
+    background: none;
+    border: none;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.menu-item {
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background: #f0f0f0;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.menu-item p {
+    color: #666;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.menu-item .price {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
